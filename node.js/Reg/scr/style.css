@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+body{
+
+    background: rgba(229, 227, 227, 0.726);
+}
+#main{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+    font-weight: 500;
+
+}
+#pageReg{
+    width: 700px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#pageAuth{
+    width: 700px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+input{
+    width: 200px;
+    height: 50px;
+}
+button{
+    width: 200px;
+    height: 50px;
+}
+#post{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
